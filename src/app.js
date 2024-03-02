@@ -1,5 +1,7 @@
-const { envs } = require('./config/env')
-const { starserver: starServer } = require('./server/server')
+import { envs } from './config/env.js';
+// const { envs } = require('./config/env')
+import { starServer } from'./server/server.js';
+// const { starserver: starServer } = require('./server/server')
 
 const main = () => {
     console.log('Aqui es donde va el servidor.');
